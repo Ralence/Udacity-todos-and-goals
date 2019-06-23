@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.header {
+  width: 100vw;
+  height: 10vh;
+  min-height: 100px;
+  text-align: center;
+  background: rgb(238, 235, 235);
+  color: rgb(102, 76, 72);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+  border-bottom: solid 2px rgb(102, 76, 72);
+}
+
+.main {
+  width: 100vw;
+  min-width: 360px;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.container {
+  min-height: 300px;
+  width: 80%;
+  min-width: 350px;
+  max-width: 800px;
+  margin-top: 20px;
+  padding: 20px;
+  border: solid rgb(219, 212, 212) 2px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px rgb(206, 199, 199);
+}
+
+.container h2 .container-title {
+  margin-bottom: 20px;
+  font-size: 1.5em;
+}
+
+.goalBtn,
+.todoBtn {
+  height: 30px;
+  width: 90px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgb(167, 147, 145);
+  color: white;
+  text-transform: uppercase;
+}
+
+.container input {
+  min-height: 30px;
+  width: 60%;
+  min-width: 200px;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.container ul {
+  margin: 20px;
+  width: 100%;
+  min-width: 340px;
+}
+
+.todo-item,
+.goal-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 70%;
+  min-width: 300px;
+  cursor: pointer;
+}
+
+.goal-item {
+  cursor: auto;
+}
+
+.container li button {
+  width: 40px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgb(173, 74, 91);
+  color: white;
+  cursor: pointer;
+}
